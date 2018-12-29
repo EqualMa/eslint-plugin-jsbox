@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-jsbox",
+  "version": "0.1.0",
+  "description": "An eslint plugin that provides environments and configs for jsbox",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Equal Ma",
+  "homepage": "https://github.com/EqualMa/eslint-plugin-jsbox#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EqualMa/eslint-plugin-jsbox"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
